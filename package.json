@@ -1,0 +1,26 @@
+{
+  "name": "jm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backendroom && npm start",
+    "client": "cd journey-mate && npm start",
+    "build": "npm run build:backend && npm run build:client",
+    "build:backend": "cd backendroom && npm install && npm run build",
+    "build:client": "cd journey-mate && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4",
+    "router": "^1.3.8"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}

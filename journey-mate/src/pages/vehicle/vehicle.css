@@ -1,0 +1,239 @@
+:root{
+    --accent:#ffd54f;
+    --black:#131313;
+    --gray:#f9f9f9;
+    --blue-gray:#f7f7fb;
+}
+
+.hero-page{
+    margin-top: 90px;
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 100px;
+}
+
+.hero-headlines{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 652px;
+}
+
+.hero-headlines h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-headlines p{
+    font-size: 20px;
+}
+
+.bot-2{
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    color: white;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+    filter:drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+}
+
+.bot-2:hover{
+    background-color:#c9a635;
+    filter:drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+
+.bot-hero{
+    width: 276px;
+    height: 62px;
+    font-size: 24px;
+}
+
+.hero-page-img{
+    max-width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 110px;
+    margin: 100px;
+}
+
+.about-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("img/about_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+}
+
+.about-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 494px;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.about-subline{
+    font-size: 24px;
+    width: 822px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+
+.about-info-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: var(--black);
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.2));
+    height: 414px;
+    transition: all ease-out 0.3s;
+    padding: 20px;
+    width: calc((100% - 40px) / 3);
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info-item:hover{
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.4));
+}
+
+.about-hr{
+    width: 100%;
+    position: absolute;
+    border: 16px solid  var(--accent);
+    color: var(--accent);
+    left: 0px;
+}
+
+.about-info-item img{
+    width: 178px;
+    height: 178px;
+    margin-top: 45px;
+}
+
+.about-info-item h5{
+    font-size: 32px;
+}
+
+.about-info-item p{
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    
+}
+
+.collection h1{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.collection-container{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.botsee{
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 12px;
+    color: white;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+    filter:drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+}
+
+.botsee:hover{
+    background-color:#c9a635;
+    filter:drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.car-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+  }
+  
+  .car-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .car-details {
+    margin-top: 15px;
+  }
+  
+  .car-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .car-details p {
+    margin: 5px 0;
+  }
+  
+  .book-now {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now:hover {
+    background-color: #d4ac0d;
+  }
+  

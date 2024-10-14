@@ -1,0 +1,38 @@
+.navbar{
+    height: 50px;
+    background-color: #ff9800;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.navButton{
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ff9800;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.navButton:hover{
+    background-color: #ffd54f;
+}

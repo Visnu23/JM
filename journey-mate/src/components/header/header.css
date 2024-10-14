@@ -1,0 +1,219 @@
+.header {
+    background-color: #ff9800;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px auto 10px auto;
+    padding: 0 15px;
+}
+
+.headerList {
+    display: flex;
+    gap: 10px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerDes {
+    margin: 20px 0;
+}
+
+.headerBtn {
+    background-color: #ffd54f;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background-color 150ms ease;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+}
+
+.headerBtn:hover {
+    background-color: rgb(238, 193, 60);
+}
+
+.Btn {
+    background-color: #ff9800;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background-color 150ms ease;
+}
+
+.Btn:hover {
+    background-color: #ffd54f;
+}
+
+.headerListItem.active.hotel {
+    background-color: #ff9800;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.headerListItem.active.hotel:hover {
+    background-color: #ffd54f;
+}
+
+.searchBar {
+    height: 40px;
+    width: 100%;
+    max-width: 300px;
+    background-color: floralwhite;
+    border: 3px solid skyblue;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.calendar {
+    height: 40px;
+    width: 200px;
+    background-color: floralwhite;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.persons {
+    height: 40px;
+    width: 200px;
+    background-color: floralwhite;
+    border: 3px solid skyblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.searchbtn {
+    height: 40px;
+    background-color: #ffd54f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background-color 150ms ease;
+}
+
+.searchbtn:hover {
+    background-color: rgb(238, 193, 60);
+}
+
+.headerSearch {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.sicon {
+    color: #ffd54f;
+    margin-right: 10px;
+}
+
+.sinput {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+}
+
+.cal, .person {
+    color: grey;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: small;
+    margin-left: 10px;
+}
+
+
+.date {
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    position: absolute;
+    margin-right: 150px;
+    margin-top: 140px;
+    left: 580px;
+    z-index:1000;
+}
+
+.options {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 350px;
+    right: 300px;
+    transform: translateX(-50%);
+}
+
+.optionItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.optionCounterBtn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    background-color: white;
+    cursor: pointer;
+}
+
+.optionCounterBtn:disabled {
+    cursor: not-allowed;
+    color: #ccc;
+    border-color: #ccc;
+}
